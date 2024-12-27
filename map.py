@@ -3,7 +3,7 @@ import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv.imread('map5.jpg')
+image = cv.imread('map6.jpg')
 image_rgb = cv.cvtColor(image, cv.COLOR_BGR2RGB)
 
 new_image = cv.imread('world.jpg')
